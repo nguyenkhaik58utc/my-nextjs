@@ -1,12 +1,13 @@
 import { useRouter } from 'next/router';
 import Link from 'next/link';
 import React from 'react';
+import Image from 'next/image';
 
 function Home() {
   const route = useRouter();
   const hrefLink = () => {
     route.push({
-      pathname: '/order',
+      pathname: '/product',
       query: {
         attr: 123,
       },
@@ -23,7 +24,8 @@ function Home() {
         </p>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <div onClick={() => hrefLink()}> Next Order</div>
-          <Link href={'/order'}>Next Order2</Link>
+          <br/>
+          <Link href={"/landing-san-sale"}> Next Landing</Link>
         </div>
       </div>
     </main>

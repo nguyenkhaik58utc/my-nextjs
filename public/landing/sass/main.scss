@@ -1,0 +1,17 @@
+@import "abstract/_variables";
+@import "abstract/_mixin";
+@import "abstract/_function";
+@import "base/_base";
+@import "base/typography";
+@import "component/_block";
+@import "component/_btn";
+@import "component/_modal";
+@import "page/home.scss";
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.test {
+    background: red;
+}

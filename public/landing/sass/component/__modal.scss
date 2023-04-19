@@ -1,0 +1,458 @@
+// .ld__minigame {
+//     margin: 0 auto;
+//     .minigame-card {
+//         background: linear-gradient(279.01deg, #1c187f -16.34%, #8438ff 26.28%, #0f136f 57.14%);
+//         border-radius: 24px;
+//         text-align: center;
+//         margin-top: 64px;
+//     }
+//     .minigame-img {
+//         margin: 0 auto;
+//     }
+//     .minigame-share {
+//         margin-top: 16px;
+//         .typo-content {
+//             font-size: 18px;
+//             margin-left: 4px;
+//             @include responsive(xsm) {
+//                 font-size: 13px;
+//                 line-height: 18px;
+//             }
+//         }
+//         @include responsive(xsm) {
+//             margin-top: 12px;
+//         }
+//     }
+//     .minigame-btn {
+//         margin-top: 16px;
+//     }
+//     .typo-title {
+//         font-family: "Roboto";
+//         font-style: normal;
+//         font-weight: 500;
+//         font-size: 28px;
+//         line-height: 36px;
+//         color: #fff;
+//         text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+//         @include responsive(xsm) {
+//             font-size: 20px;
+//             line-height: 28px;
+//             text-shadow: none;
+//         }
+//     }
+//     .typo-subtitle {
+//         font-family: "Roboto";
+//         font-style: normal;
+//         font-weight: 700;
+//         font-size: 44px;
+//         line-height: 60px;
+//         background: linear-gradient(179.54deg, #ffffe0 -14.55%, #ffcf00 74.61%), #ffffff;
+//         -webkit-background-clip: text;
+//         -webkit-text-fill-color: transparent;
+//         background-clip: text;
+//         text-fill-color: transparent;
+//         margin-top: 4px;
+//         @include responsive(xsm) {
+//             font-weight: 500;
+//             font-size: 32px;
+//             line-height: 40px;
+//         }
+//     }
+//     .typo-content {
+//         font-family: "Roboto";
+//         font-style: normal;
+//         font-weight: 500;
+//         font-size: 16px;
+//         line-height: 24px;
+//         color: #fff;
+//         @include responsive(xsm) {
+//             font-size: 14px;
+//             line-height: 20px;
+//             font-weight: 400;
+//         }
+//     }
+//     .btn-homepage {
+//         display: inline-flex;
+//         justify-content: center;
+//         align-items: center;
+//         max-width: 276px;
+//         width: 100%;
+//         background: rgba(0, 0, 0, 0.3);
+//         border: 1px solid #939ca3;
+//         border-radius: 1000px;
+//         padding: 16px 0;
+//         margin-right: 16px;
+//         span {
+//             font-family: "Roboto";
+//             font-style: normal;
+//             font-weight: 500;
+//             font-size: 20px;
+//             line-height: 100%;
+//             color: #fff;
+//             @include responsive(xsm) {
+//                 font-size: 16px;
+//             }
+//         }
+//         @include responsive(xsm) {
+//             display: none;
+//         }
+//     }
+//     .btn-minigame {
+//         display: inline-flex;
+//         justify-content: center;
+//         align-items: center;
+//         max-width: 276px;
+//         width: 100%;
+//         background: linear-gradient(31.31deg, #ee400d 62.94%, #ffdb8e 124.63%);
+//         border-radius: 1000px;
+//         padding: 18px 0;
+//         span {
+//             font-family: "Roboto";
+//             font-style: normal;
+//             font-weight: 500;
+//             font-size: 20px;
+//             line-height: 100%;
+//             color: #fff;
+//             @include responsive(xsm) {
+//                 font-size: 16px;
+//             }
+//         }
+//         @include responsive(xsm) {
+//             max-width: 160px;
+//             padding: 10px 0;
+//         }
+//     }
+//     .btn-share {
+//         display: inline-flex;
+//         justify-content: center;
+//         align-items: center;
+//         max-width: 139px;
+//         width: 100%;
+//         background: #0664f9;
+//         border: 1px solid #0664f9;
+//         border-radius: 4px;
+//         padding: 7px 0;
+//         span {
+//             font-family: "Roboto";
+//             font-style: normal;
+//             font-weight: 400;
+//             font-size: 16px;
+//             line-height: 100%;
+//             color: #fff;
+//             @include responsive(xsm) {
+//                 font-size: 14px;
+//             }
+//         }
+//         @include responsive(xsm) {
+//             max-width: 116px;
+//             padding: 4px 0;
+//         }
+//     }
+//     .text {
+//         font-family: "Roboto";
+//         font-style: normal;
+//         font-weight: 500;
+//         font-size: 20px;
+//         line-height: 28px;
+//         color: #fff;
+//     }
+//     .typo-mobile {
+//         display: none;
+//         @include responsive(xsm) {
+//             display: block;
+//         }
+//     }
+//     &-intro {
+//         .minigame-card {
+//             padding: 114px 0;
+//             @include responsive(xsm) {
+//                 padding: 56px 16px 48px;
+//             }
+//         }
+//         .minigame-img {
+//             max-width: 576px;
+//         }
+//         .minigame-content {
+//             margin: 28px 0;
+//             .typo-content {
+//                 font-size: 28px;
+//                 line-height: 36px;
+//                 text-shadow: 0px 0px 1.80556px rgba(0, 0, 0, 0.5);
+//                 @include responsive(xsm) {
+//                     font-size: 20px;
+//                     line-height: 28px;
+//                     text-shadow: none;
+//                 }
+//             }
+//             @include responsive(xsm) {
+//                 margin: 12px auto;
+//                 max-width: 222px;
+//             }
+//         }
+//         @include responsive(xsm) {
+//             .btn-minigame {
+//                 max-width: 200px;
+//             }
+//         }
+//     }
+//     &-question {
+//         position: relative;
+//         .minigame-card {
+//             padding: 44px 0;
+//             @include responsive(md) {
+//                 padding: 24px 0 32px;
+//             }
+//         }
+//         .minigame-img,
+//         .minigame-content {
+//             max-width: 776px;
+//         }
+//         .minigame-countdown {
+//             position: absolute;
+//             top: 17px;
+//             right: 23.5px;
+//             @include responsive(md) {
+//                 position: relative;
+//                 top: 0;
+//                 right: 0;
+//                 display: inline-flex;
+//                 align-items: center;
+//                 margin-bottom: 16px;
+//                 p:first-child {
+//                     margin-right: 4px;
+//                     font-size: 15px;
+//                     line-height: 20px;
+//                 }
+//             }
+//         }
+//         .minigame-content {
+//             margin: 36px auto 0;
+//             display: flex;
+//             align-items: center;
+//             .minigame-form {
+//                 position: relative;
+//                 display: inline-flex;
+//                 flex: 1;
+//                 margin-left: 24px;
+//                 @include responsive(md) {
+//                     width: 100%;
+//                     align-items: center;
+//                     margin-left: 0;
+//                 }
+//             }
+//             .form-input {
+//                 position: relative;
+//                 display: flex;
+//                 align-items: center;
+//                 width: 100%;
+//                 padding: 7px 12px;
+//                 font-family: inherit;
+//                 background-color: #fff;
+//                 background-clip: padding-box;
+//                 border: 1px solid #cbd1d6;
+//                 border-radius: 4px;
+//                 transition: color 0.3s cubic-bezier(0, 0, 0.4, 1), background-color 0.3s cubic-bezier(0, 0, 0.4, 1), border-color 0.3s cubic-bezier(0, 0, 0.4, 1),
+//                     box-shadow 0.3s cubic-bezier(0, 0, 0.4, 1);
+//                 margin-right: 16px;
+//                 max-width: 276px;
+//                 &:focus-visible {
+//                     outline: 0;
+//                 }
+//                 @include responsive(md) {
+//                     margin: 12px 0;
+//                     max-width: 308px;
+//                     padding: 3px 8px;
+//                     font-size: 14px;
+//                     line-height: 20px;
+//                 }
+//             }
+//             .form-label {
+//                 pointer-events: none;
+//                 position: absolute;
+//                 top: 7px;
+//                 left: 12px;
+//                 color: #939ca3;
+//                 transition: all 0.3s ease-in-out;
+//                 font-size: 16px;
+//                 line-height: 24px;
+//                 @include responsive(md) {
+//                     top: 3px;
+//                     left: 8px;
+//                     font-size: 14px;
+//                     line-height: 20px;
+//                 }
+//             }
+//             .form-btn {
+//                 display: inline-flex;
+//                 justify-content: center;
+//                 align-items: center;
+//                 max-width: 160px;
+//                 width: 100%;
+//                 background: linear-gradient(31.31deg, #ee400d 62.94%, #ffdb8e 124.63%);
+//                 border-radius: 1000px;
+//                 padding: 10px 0;
+//                 span {
+//                     font-family: "Roboto";
+//                     font-style: normal;
+//                     font-weight: 500;
+//                     font-size: 16px;
+//                     line-height: 100%;
+//                     color: #fff;
+//                 }
+//             }
+//             @include responsive(md) {
+//                 margin-top: 12px;
+//             }
+//         }
+//         @include responsive(md) {
+//             .minigame-content,
+//             .minigame-form {
+//                 flex-direction: column;
+//             }
+//             .minigame-img {
+//                 max-width: 360px;
+//                 margin: 0 -10px;
+//             }
+//         }
+//     }
+//     &-result {
+//         .minigame-card {
+//             padding: 96px 0;
+//             @include responsive(xsm) {
+//                 padding: 40px 16px 32px;
+//             }
+//         }
+//         .minigame-content,
+//         .minigame-top {
+//             br {
+//                 display: none;
+//                 @include responsive(xsm) {
+//                     display: block;
+//                 }
+//             }
+//         }
+//         .minigame-img {
+//             max-width: 140px;
+//             margin: 16px auto;
+//             @include responsive(xsm) {
+//                 margin: 28px auto 12px;
+//             }
+//         }
+//     }
+//     &-gift {
+//         .minigame-card {
+//             padding: 154px 0;
+//             @include responsive(xsm) {
+//                 padding: 50px 16px 58px;
+//             }
+//             .minigame-img {
+//                 margin: 16px 0;
+//                 display: flex;
+//                 justify-content: center;
+//                 img {
+//                     max-width: 120px;
+//                     @include responsive(xsm) {
+//                         max-width: 80px;
+//                     }
+//                 }
+//                 .item:not(:last-child) {
+//                     margin-right: 12px;
+//                 }
+//                 .item-radio input {
+//                     position: relative;
+//                     width: 24px;
+//                     height: 24px;
+//                 }
+//                 .item-radio input[type="radio"]:before {
+//                     position: absolute;
+//                     left: 0;
+//                     top: 0;
+//                     background-color: #fff;
+//                     -webkit-transform: scale(0);
+//                     -ms-transform: scale(0);
+//                     -o-transform: scale(0);
+//                     transform: scale(0);
+//                 }
+//                 .item-radio input[type="radio"]:before,
+//                 .item-radio input[type="radio"]:after {
+//                     content: "";
+//                     display: block;
+//                     border-radius: 50%;
+//                     -webkit-transition: all 0.3s ease-in-out;
+//                     -o-transition: all 0.3s ease-in-out;
+//                     transition: all 0.3s ease-in-out;
+//                 }
+//                 .item-radio input[type="radio"]:checked::before {
+//                     transform: scale(0.625);
+//                     z-index: 2;
+//                     background: #cb1c22;
+//                 }
+//                 @include responsive(xsm) {
+//                     margin: 12px 0;
+//                 }
+//             }
+//         }
+//     }
+//     &-card {
+//         .minigame-card {
+//             padding: 64px 0;
+//             @include responsive(xsm) {
+//                 padding: 40px 16px 32px;
+//             }
+//         }
+//         .minigame-img {
+//             max-width: 182px;
+//             margin: 16px auto;
+//             @include responsive(xsm) {
+//                 margin: 28px auto 12px;
+//             }
+//         }
+//     }
+//     &-noshare {
+//         .minigame-card {
+//             padding: 132px 0;
+//             @include responsive(xsm) {
+//                 padding: 40px 16px 32px;
+//             }
+//         }
+//         .minigame-img {
+//             max-width: 140px;
+//             margin: 16px auto;
+//             @include responsive(xsm) {
+//                 margin: 28px auto 12px;
+//             }
+//         }
+//     }
+//     @include responsive(xsm) {
+//         .minigame-content .typo-desk {
+//             display: none;
+//         }
+//     }
+// }
+
+.ld__minigame {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 999999;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0 auto;
+}
+.ld__modal-game {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    max-width: 576px;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    &.open {
+        opacity: 1;
+        visibility: visible;
+    }
+}
