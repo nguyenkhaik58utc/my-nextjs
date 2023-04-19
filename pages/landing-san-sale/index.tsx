@@ -23,7 +23,7 @@ export default function App(props: IAppProps) {
               <div className="inner">
                 <div className="col-1">
                   <p className="img-1 desktop-only">
-                    <img src = {"https://fptshop.com.vn/Uploads/Originals/2023/4/18/638174581153428028_product.png?v=202304191745"} alt="" />
+                    <Image src = {ImgLD.img_1} alt="" />
                   </p>
                   <p className="img-1 mobile-only">
                     <Image src={ImgLD.img_2_mb} alt="" />
