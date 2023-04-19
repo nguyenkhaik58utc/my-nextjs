@@ -13,7 +13,7 @@ import img_tit_3 from '../../public/landing/images/tit-3.png';
 import img_tit_3_mb from '../../public/landing/images/tit-3-m.png';
 import img_tit_4 from '../../public/landing/images/tit-4.png';
 import img_tit_4_mb from '../../public/landing/images/tit-4-m.png';
-import img_3 from '../../public/landing/images/img-3-m.png';
+import img_3 from '../../public/landing/images/img-3.png';
 import img_3_mb from '../../public/landing/images/img-3-m.png';
 import img_4 from '../../public/landing/images/img-4.png';
 import img_4_mb from '../../public/landing/images/img-4-m.png';
